@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World's Biggest University</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a class="name" href="index.html"
+          ><img src="graduation_hat.png" />Eduford</a
+        >
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">H0ME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate and Online Program For 2021</h1>
+    </section>    
+
+    <!-- Blog page content -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="blog.jpg">
+          <h2>Our Certificate and Online Program For 2021 </h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At error totam debitis, 
+            voluptate vero officia nam ipsam cupiditate officiis excepturi recusandae tempora 
+            repudiandae deserunt architecto quia ab provident sint commodi doloribus qui ratione 
+            corrupti et. Debitis, at? Ipsam, incidunt quidem.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci eveniet
+               quas aperiam quis ab, perferendis perspiciatis neque, assumenda unde dolore fugiat
+               eligendi! Id a molestias impedit ipsum aliquam consequatur corrupti, commodi vel,
+               quae officiis, odit labore quibusdam delectus suscipit facilis culpa unde eum 
+               minus. Cupiditate culpa excepturi explicabo!</p>
+               <br>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex accusantium nihil
+                 similique necessitatibus sed, recusandae ipsa impedit provident earum debitis velit
+                 explicabo fugiat corporis. Eveniet consequuntur, delectus nulla sit dolores obcaecati
+                 maiores tenetur pariatur officia libero rerum vel laudantium fugiat voluptatibus,
+                 dignissimos quo rem quod voluptas exercitationem soluta velit blanditiis? Distinctio
+                 porro quisquam provident! Impedit commodi vitae quam fugiat laborum.</p>
+                 <br>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex accusantium nihil
+                   similique necessitatibus sed, recusandae ipsa impedit provident earum debitis velit
+                   explicabo fugiat corporis. Eveniet consequuntur, delectus nulla sit dolores obcaecati
+                   maiores tenetur pariatur officia libero rerum vel laudantium fugiat voluptatibus,
+                   dignissimos quo rem quod voluptas exercitationem soluta velit blanditiis? Distinctio
+                   porro quisquam provident! Impedit commodi vitae quam fugiat laborum.</p>
+       
+                  <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                      <input type="text" placeholder="Enter Name">
+                      <input type="text" placeholder="Enter Email">
+                      <textarea rows="5" placeholder="Your comment"></textarea>
+                      <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                  </div>
+       
+                  </div>
+        <div class="blog-right">
+        <h3>Post Categories</h3>
+      <div>
+        <span>Bussiness Analytics</span>
+        <span>21</span>
+      </div>
+      <div>
+        <span>Data Science</span>
+        <span>28</span>
+      </div>
+      <div>
+        <span>Machine learning</span>
+        <span>15</span>
+      </div>
+      <div>
+        <span>Computer Sciences</span>
+        <span>34</span>
+      </div>
+      <div>
+        <span>AutoCAD</span>
+        <span>42</span>
+      </div>
+      <div>
+        <span>Journalism</span>
+        <span>22</span>
+      </div>
+      <div>
+        <span>Commerce</span>
+        <span>30</span>
+      </div>
+    </div>
+  </div>
+    </section>
+
+<!-- Footer -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor, eveniet 
+    voluptates voluptatum nulla nihil porro temporibus animi rem qui. <br>Quo et iusto laudantium 
+    illum ad incidunt,pariatur at amet ipsam ipsum accusantium inventore?</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+      <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </div>
+</section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
